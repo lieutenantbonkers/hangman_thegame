@@ -1,0 +1,70 @@
+body
+{
+	background-color: #000;
+	font-size: 28px;
+	color: #888;
+	font-family: 'Inconsolata', monospace;
+	font-weight: 700;
+}
+#container
+{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+#tablica
+{
+	width: 900px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	font size: 50px;
+	min-height: 60px;
+	letter-spacing: 4px;
+
+}
+#szubienica
+{
+	float: left;
+	width: 450px;
+	text-align: center;
+	min-height: 280px;
+	
+}
+#alfabet
+{
+	float: left;	
+	width: 450px;
+	text-align: center;
+	min-height: 280px;	
+	/*background-color: red;*/
+}
+.litera
+{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	padding: 5px;
+	margin: 5px 5px 5px 12px;
+	border: 3px solid grey;
+	border-radius: 15px;
+	float: left;
+	cursor: pointer;
+}
+.litera:hover
+{
+	background-color: #222222;
+	color: white;
+	border: 3px solid white;
+}
+.reset
+{
+	color: green;
+	cursor: pointer;
+	font-size: 48px;
+}
+.reset:hover
+{
+	color: white;
+}
